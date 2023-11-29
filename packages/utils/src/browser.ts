@@ -1,6 +1,5 @@
-import { SyntheticEvent } from 'react'
 
-export function preventAll(event: Event | SyntheticEvent) {
+export function preventAll(event: Event) {
   event.preventDefault()
   event.stopPropagation()
 }
